@@ -1,5 +1,8 @@
 import express from "express";
-
+import { config } from "dotenv";
+import cookieParser from "cookie-parser";
+import cors from "cors";
+import fileUpload from "express-fileupload";
 const app = express();
 config({ path: "./config.env" });
 
