@@ -194,7 +194,6 @@ export const getUserDetails = catchAsyncErrors(async (req, res, next) => {
   });
 });
 
-// Logout function for dashboard admin
 export const logoutAdmin = catchAsyncErrors(async (req, res, next) => {
   res
     .status(201)
@@ -208,7 +207,6 @@ export const logoutAdmin = catchAsyncErrors(async (req, res, next) => {
     });
 });
 
-// Logout function for frontend patient
 export const logoutPatient = catchAsyncErrors(async (req, res, next) => {
   res
     .status(201)
